@@ -30,6 +30,12 @@
         border: solid 2px var(--yellow);
         background-color: var(--off-white);
         padding:1.6rem;
+
+        font-family: var(--font-body);
+        font-size: 1.6rem;
+        color:var(--teal-dark);
+
+        resize:none; // disable user's ability to resize the text area
     }
 
     &--2 {
