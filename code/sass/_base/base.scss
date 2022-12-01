@@ -32,4 +32,11 @@ body {
     font-size: 1.6rem;
     font-weight: 300;
 
+    @media screen and (min-width: $bp-bigger) {
+        max-width: 38rem;
+        margin: 5vh auto;
+        padding: 3rem 0;
+        box-shadow: 0.2rem 0.2rem 0.5rem rgba(black, 0.2);
+    }
+
 }
