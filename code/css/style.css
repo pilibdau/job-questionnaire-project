@@ -54,3 +54,10 @@ body {
 
 .form__question {
   margin-bottom: 3rem; }
+  .form__question--2__slider {
+    width: 100%; }
+  .form__question--2__faces {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    justify-content: space-between;
+    justify-items: center; }
