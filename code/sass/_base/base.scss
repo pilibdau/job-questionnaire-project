@@ -1,0 +1,35 @@
+:root {
+    // ====== colors ==========//
+    --off-white: #F2F1EF;
+    --pink: #E53875;
+    --teal-dark:#004A51;
+    --teal-light:#D0DDDD;
+    --yellow: #FFB100;
+    --purple-dark: #4E3D42;
+
+    // ====== fonts ==========//
+    --font-headers:'Montserrat', sans-serif;
+    --font-body: 'Source Sans Pro', sans-serif;
+}
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // make 1rem = 10px instead of 16px
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--off-white);
+    font-family: var(--font-body);
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: var(--teal-dark);
+}

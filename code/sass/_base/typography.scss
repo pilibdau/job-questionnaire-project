@@ -1,0 +1,13 @@
+.form__question {
+
+    p,
+    .textarea--label {
+        font-weight: 400;
+    }
+
+    *::placeholder {
+        color: var(--purple-dark);
+        font-family: inherit;
+        font-size: inherit;
+    }
+}

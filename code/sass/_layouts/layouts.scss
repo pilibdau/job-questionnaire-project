@@ -1,0 +1,22 @@
+.back {
+    display: flex;
+    align-content:flex-end;
+    font-weight: 400;
+    color:var(--pink);
+    margin: 3rem 0 0 3rem;
+    line-height: 1.5;
+
+    &__img {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+}
+
+
+.form__container {
+    margin: 3rem;
+}
+
+.form__question {
+    margin-bottom: 3rem;
+}

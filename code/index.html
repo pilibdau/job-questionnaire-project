@@ -7,12 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Questionnaire Project</title>
     <link rel="shortcut icon" type="image/png" href="./icon/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,900&family=Source+Sans+Pro:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <div class="back">
-        <img src="./icon/arrow left back.svg" alt="back icon">
+        <img src="./icon/arrow left back.svg" alt="back icon" class="back__img">
         <p class="back__text">Back</p>
     </div>
     <form action="" class="form__container" method="post">
@@ -107,10 +112,8 @@
             </div>
         </div>
         <div class="form__question form__question--4">
-            <label for="ideal">Please write a few sentences, explaining your ideal work culture</label>
-            <textarea id="ideal" name="ideal" rows="6" cols="35"
-                placeholder="Describe what your dream company culture is like">
-            </textarea>
+            <label for="ideal" class="textarea--label">Please write a few sentences, explaining your ideal work culture</label>
+            <textarea id="ideal" name="ideal" rows="6" cols="35" placeholder="Describe what your dream company culture is like"></textarea>
         </div>
         <div class="buttons">
             <input type="reset" value="reset" class="button--reset">
