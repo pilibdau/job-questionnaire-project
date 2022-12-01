@@ -42,6 +42,24 @@ body {
 .face {
   fill: var(--yellow); }
 
+.form__radio,
+.form__checkbox {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  align-items: center; }
+  .form__radio--input,
+  .form__checkbox--input {
+    display: none; }
+  .form__radio--radio, .form__radio--checkbox,
+  .form__checkbox--radio,
+  .form__checkbox--checkbox {
+    content: "";
+    width: 1.6rem;
+    height: 1rem;
+    border: solid 2px var(--yellow);
+    margin-right: 1rem;
+    padding: 1rem; }
+
 .back {
   display: flex;
   align-content: flex-end;
