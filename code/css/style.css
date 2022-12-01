@@ -25,6 +25,11 @@ body {
   font-size: 1.6rem;
   font-weight: 300; }
 
+*:link,
+*:visited {
+  text-decoration: none;
+  color: currentColor; }
+
 .form__question p,
 .form__question .textarea--label {
   font-weight: 400; }
