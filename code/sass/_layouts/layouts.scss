@@ -20,6 +20,17 @@
 .form__question {
     margin-bottom: 3rem;
 
+    p + div,
+    .textarea--field {
+        margin-top: 2rem;
+    }
+
+    .textarea--field {
+        width: 100%;
+        border: solid 2px var(--yellow);
+        background-color: var(--off-white);
+    }
+
     &--2 {
         &__slider {
             width: 100%;

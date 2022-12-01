@@ -53,6 +53,13 @@ body {
 
 .form__question {
   margin-bottom: 3rem; }
+  .form__question p + div,
+  .form__question .textarea--field {
+    margin-top: 2rem; }
+  .form__question .textarea--field {
+    width: 100%;
+    border: solid 2px var(--yellow);
+    background-color: var(--off-white); }
   .form__question--2__slider {
     width: 100%; }
   .form__question--2__faces {
