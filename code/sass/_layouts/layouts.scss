@@ -32,6 +32,35 @@
             justify-items: center;
         }
     }
+}
 
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
 
+.button {
+    &--reset,
+    &--submit {
+        border: none;
+        padding: 1rem 3rem;
+        font-family:var(--font-headers);
+        font-size: 2.4rem;
+        font-size: 2.4rem;
+    }
+
+    &--reset {
+        color: var(--teal-dark);
+        border: solid 0.2rem var(--teal-light);
+
+        font-weight: 400;
+        text-transform: capitalize;
+
+    }
+
+    &--submit {
+        background-color: var(--pink);
+        color: var(--off-white);
+        font-weight: 900;
+    }
 }

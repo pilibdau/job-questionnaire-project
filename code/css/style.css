@@ -23,8 +23,7 @@ body {
   background-color: var(--off-white);
   font-family: var(--font-body);
   font-size: 1.6rem;
-  font-weight: 300;
-  color: var(--teal-dark); }
+  font-weight: 300; }
 
 .form__question p,
 .form__question .textarea--label {
@@ -61,3 +60,25 @@ body {
     grid-template-columns: repeat(5, min-content);
     justify-content: space-between;
     justify-items: center; }
+
+.buttons {
+  display: flex;
+  justify-content: space-between; }
+
+.button--reset, .button--submit {
+  border: none;
+  padding: 1rem 3rem;
+  font-family: var(--font-headers);
+  font-size: 2.4rem;
+  font-size: 2.4rem; }
+
+.button--reset {
+  color: var(--teal-dark);
+  border: solid 0.2rem var(--teal-light);
+  font-weight: 400;
+  text-transform: capitalize; }
+
+.button--submit {
+  background-color: var(--pink);
+  color: var(--off-white);
+  font-weight: 900; }
