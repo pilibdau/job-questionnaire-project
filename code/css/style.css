@@ -122,6 +122,7 @@ body {
 
 .button--reset, .button--submit {
   appearance: none;
+  border-radius: 0;
   border: none;
   min-width: 45%;
   padding: 1rem 3rem;
