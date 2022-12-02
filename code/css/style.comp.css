@@ -23,7 +23,8 @@ body {
   background-color: var(--off-white);
   font-family: var(--font-body);
   font-size: 1.6rem;
-  font-weight: 300; }
+  font-weight: 300;
+  color: var(--teal-dark); }
   @media screen and (min-width: 25em) {
     body {
       max-width: 38rem;
@@ -41,7 +42,7 @@ body {
   font-weight: 400; }
 
 .form__question *::placeholder {
-  color: var(--purple-dark);
+  color: var(--teal-light);
   font-family: inherit;
   font-size: inherit; }
 
