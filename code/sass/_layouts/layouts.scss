@@ -60,6 +60,8 @@
 .button {
     &--reset,
     &--submit {
+        appearance: none;
+        
         border: none;
         min-width: 45%;
         padding: 1rem 3rem;
@@ -108,4 +110,3 @@
         background-color: var(--off-white);
     }
 }
-
