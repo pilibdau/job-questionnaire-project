@@ -1,1 +1,158 @@
-:root{--off-white: #F2F1EF;--pink: #E53875;--teal-dark:#004A51;--teal-light:#D0DDDD;--yellow: #FFB100;--purple-dark: #4E3D42;--font-headers:'Montserrat', sans-serif;--font-body: 'Source Sans Pro', sans-serif}html{box-sizing:border-box;font-size:62.5%}*,*::after,*::before{margin:0;padding:0;box-sizing:inherit}body{background-color:var(--off-white);font-family:var(--font-body);font-size:1.6rem;font-weight:300;color:var(--teal-dark)}@media screen and (min-width: 25em){body{max-width:38rem;margin:5vh auto;padding:3rem 0;box-shadow:0.2rem 0.2rem 0.5rem rgba(0,0,0,0.2)}}*:link,*:visited{text-decoration:none;color:currentColor}.form__question p,.form__question .textarea--label{font-weight:400}.form__question *::-moz-placeholder{color:var(--teal-light);font-family:inherit;font-size:inherit}.form__question *::placeholder{color:var(--teal-light);font-family:inherit;font-size:inherit}.face{fill:var(--yellow)}.form__question--2__face.active .face{fill:var(--pink)}.form__radio,.form__checkbox{display:inline-flex;margin-bottom:1rem;align-items:center}.form__radio--input,.form__checkbox--input{display:none}.form__radio--radio,.form__radio--checkbox,.form__checkbox--radio,.form__checkbox--checkbox{width:1rem;height:1rem;border:solid 2px var(--yellow);margin-right:1rem;padding:1rem;position:relative}.form__check--symbol{position:absolute;top:-0.5rem;left:-0.5rem;opacity:0}.form__radio--input:checked+.form__radio--radio>.form__check--symbol,.form__checkbox--input:checked+.form__checkbox--checkbox>.form__check--symbol{opacity:1}.back{display:flex;align-content:flex-end;font-weight:400;color:var(--pink);margin:3rem 0 0 3rem;line-height:1.5}.back__img{width:2.4rem;height:2.4rem}.form__container{margin:3rem}.form__question{margin-bottom:3rem}.form__question p+div,.form__question .textarea--field{margin-top:2rem}.form__question .textarea--field{width:100%;border:solid 2px var(--yellow);background-color:var(--off-white);padding:1.6rem;font-family:var(--font-body);font-size:1.6rem;color:var(--teal-dark);resize:none}.form__question--2__slider{width:100%}.form__question--2__faces{display:grid;grid-template-columns:repeat(5, min-content);justify-content:space-between;justify-items:center}.buttons{display:flex;justify-content:space-around}.button--reset,.button--submit{border:none;min-width:45%;padding:1rem 3rem;font-family:var(--font-headers);font-size:1.6rem;text-align:center}.button--reset{color:var(--teal-dark);border:solid 0.2rem var(--teal-light);font-weight:400;text-transform:capitalize}.button--submit{background-color:var(--pink);color:var(--off-white);font-weight:900}.form__question--2__slider{-webkit-appearance:none;-moz-appearance:none;appearance:none;width:100%;height:0.5rem;background-color:var(--teal-light);border-radius:100px;border:none;outline:none;margin-bottom:2rem}.form__question--2__slider::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:1rem;height:1rem;padding:0.8rem;border-radius:50%;border:solid 3px var(--yellow);background-color:var(--off-white)}
+:root {
+  --off-white: #F2F1EF;
+  --pink: #E53875;
+  --teal-dark:#004A51;
+  --teal-light:#D0DDDD;
+  --yellow: #FFB100;
+  --purple-dark: #4E3D42;
+  --font-headers:'Montserrat', sans-serif;
+  --font-body: 'Source Sans Pro', sans-serif; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  background-color: var(--off-white);
+  font-family: var(--font-body);
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: var(--teal-dark); }
+  @media screen and (min-width: 25em) {
+    body {
+      max-width: 38rem;
+      margin: 5vh auto;
+      padding: 3rem 0;
+      box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2); } }
+
+*:link,
+*:visited {
+  text-decoration: none;
+  color: currentColor; }
+
+.form__question p,
+.form__question .textarea--label {
+  font-weight: 400; }
+
+.form__question *::placeholder {
+  color: var(--teal-light);
+  font-family: inherit;
+  font-size: inherit; }
+
+.face {
+  fill: var(--yellow); }
+
+.form__question--2__face.active .face {
+  fill: var(--pink); }
+
+.form__radio,
+.form__checkbox {
+  display: inline-flex;
+  margin-bottom: 1rem;
+  align-items: center; }
+  .form__radio--input,
+  .form__checkbox--input {
+    display: none; }
+  .form__radio--radio, .form__radio--checkbox,
+  .form__checkbox--radio,
+  .form__checkbox--checkbox {
+    width: 1rem;
+    height: 1rem;
+    border: solid 2px var(--yellow);
+    margin-right: 1rem;
+    padding: 1rem;
+    position: relative; }
+
+.form__check--symbol {
+  position: absolute;
+  top: -0.5rem;
+  left: -0.5rem;
+  opacity: 0; }
+
+.form__radio--input:checked + .form__radio--radio > .form__check--symbol,
+.form__checkbox--input:checked + .form__checkbox--checkbox > .form__check--symbol {
+  opacity: 1; }
+
+.back {
+  display: flex;
+  align-content: flex-end;
+  font-weight: 400;
+  color: var(--pink);
+  margin: 3rem 0 0 3rem;
+  line-height: 1.5; }
+  .back__img {
+    width: 2.4rem;
+    height: 2.4rem; }
+
+.form__container {
+  margin: 3rem; }
+
+.form__question {
+  margin-bottom: 3rem; }
+  .form__question p + div,
+  .form__question .textarea--field {
+    margin-top: 2rem; }
+  .form__question .textarea--field {
+    width: 100%;
+    border: solid 2px var(--yellow);
+    background-color: var(--off-white);
+    padding: 1.6rem;
+    font-family: var(--font-body);
+    font-size: 1.6rem;
+    color: var(--teal-dark);
+    resize: none; }
+  .form__question--2__slider {
+    width: 100%; }
+  .form__question--2__faces {
+    display: grid;
+    grid-template-columns: repeat(5, min-content);
+    justify-content: space-between;
+    justify-items: center; }
+
+.buttons {
+  display: flex;
+  justify-content: space-around; }
+
+.button--reset, .button--submit {
+  border: none;
+  min-width: 45%;
+  padding: 1rem 3rem;
+  font-family: var(--font-headers);
+  font-size: 1.6rem;
+  text-align: center; }
+
+.button--reset {
+  color: var(--teal-dark);
+  border: solid 0.2rem var(--teal-light);
+  font-weight: 400;
+  text-transform: capitalize; }
+
+.button--submit {
+  background-color: var(--pink);
+  color: var(--off-white);
+  font-weight: 900; }
+
+.form__question--2__slider {
+  appearance: none;
+  width: 100%;
+  height: 0.5rem;
+  background-color: var(--teal-light);
+  border-radius: 100px;
+  border: none;
+  outline: none;
+  margin-bottom: 2rem; }
+  .form__question--2__slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    padding: 0.8rem;
+    border-radius: 50%;
+    border: solid 3px var(--yellow);
+    background-color: var(--off-white); }
