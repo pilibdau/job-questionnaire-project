@@ -31,6 +31,7 @@ body {
     font-family: var(--font-body);
     font-size: 1.6rem;
     font-weight: 300;
+    color: var(--teal-dark);
 
     @media screen and (min-width: $bp-bigger) {
         max-width: 38rem;
