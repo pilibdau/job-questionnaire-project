@@ -24,6 +24,12 @@ body {
   font-family: var(--font-body);
   font-size: 1.6rem;
   font-weight: 300; }
+  @media screen and (min-width: 25em) {
+    body {
+      max-width: 38rem;
+      margin: 5vh auto;
+      padding: 3rem 0;
+      box-shadow: 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2); } }
 
 *:link,
 *:visited {
@@ -46,8 +52,7 @@ body {
 .form__checkbox {
   display: inline-flex;
   margin-bottom: 1rem;
-  align-items: center;
-  position: relative; }
+  align-items: center; }
   .form__radio--input,
   .form__checkbox--input {
     display: none; }
@@ -58,7 +63,8 @@ body {
     height: 1rem;
     border: solid 2px var(--yellow);
     margin-right: 1rem;
-    padding: 1rem; }
+    padding: 1rem;
+    position: relative; }
 
 .form__check--symbol {
   position: absolute;
@@ -108,14 +114,15 @@ body {
 
 .buttons {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around; }
 
 .button--reset, .button--submit {
   border: none;
+  min-width: 45%;
   padding: 1rem 3rem;
   font-family: var(--font-headers);
-  font-size: 2.4rem;
-  font-size: 2.4rem; }
+  font-size: 1.6rem;
+  text-align: center; }
 
 .button--reset {
   color: var(--teal-dark);
